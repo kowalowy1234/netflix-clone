@@ -1,0 +1,56 @@
+.nav {
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  display: flex;
+  padding: 10px 20px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  transition: all 150ms;
+  transition-timing-function: ease-in;
+}
+
+.nav__black {
+  background-color: #141414;
+}
+
+.nav__leftColumn, .nav__rightColumn {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nav__logo {
+  width: 120px;
+  object-fit: contain;
+}
+
+.nav__links {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-left: 20px;
+  flex-wrap: wrap;
+}
+
+.nav__links a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  font-size: 15px;
+  font-weight: 600;
+  transition: 200ms;
+}
+
+.nav__links a:hover {
+  color: #b3b3b3;
+}
+
+.nav__profilePicture {
+  height: 40px;
+  object-fit: contain;
+}
